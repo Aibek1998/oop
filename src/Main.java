@@ -1,3 +1,5 @@
+import java.util.concurrent.Callable;
+
 public class Main {
     public static void main(String[] args) {
         Cow cow = new Cow();
@@ -62,7 +64,20 @@ public class Main {
         System.out.println("Color : "+p.color);
         System.out.println("Country : "+p.country);
         System.out.println("Cost : " +p.cost+"$");
-
+        System.out.println();
+        System.out.println("  Computer" );
+        System.out.println();
+        Computer c =new Computer();
+        c.name = "Acer";
+        c.model = "TravelMate";
+        c.color = "Black";
+        c.ram = "Windows";
+        c.coat = 500;
+        System.out.println(" Name : "+c.name);
+        System.out.println(" model : "+c.model);
+        System.out.println(" color : "+c.color);
+        System.out.println(" RAM : "+c.ram);
+        System.out.println(" Coat : "+c.coat+"$");
 
 
     }
