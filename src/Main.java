@@ -48,6 +48,7 @@ public class Main {
         System.out.println("year : "+car.year);
         System.out.println("color : "+car.color);
         System.out.println("speed : "+car.speed);
+        System.out.println();
 
 
 
