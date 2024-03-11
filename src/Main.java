@@ -36,7 +36,7 @@ public class Main {
         System.out.println(cow2.breed);
         System.out.println(cow2.weight);
         System.out.println();
-        System.out.println("      CAR     ");
+        System.out.println("    CAR    ");
         System.out.println();
         Car car = new Car();
         car.name = "BMW";
@@ -45,9 +45,10 @@ public class Main {
         car.year = 2022;
         car.speed = 360;
         System.out.println("NAME : "+car.name + "-"+car.marka);
-        System.out.println("Color : "+car.color);
-        System.out.println("Car year : "+car.year);
-        System.out.println("Speed : "+car.speed);
+        System.out.println("year : "+car.year);
+        System.out.println("color : "+car.color);
+        System.out.println("speed : "+car.speed);
+
 
 
     }
