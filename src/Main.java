@@ -49,6 +49,19 @@ public class Main {
         System.out.println("color : "+car.color);
         System.out.println("speed : "+car.speed);
         System.out.println();
+        System.out.println();
+        System.out.println("   Phone   ");
+        Phone p =  new Phone();
+        p.name = "Apple";
+        p.model = "Iphone-15";
+        p.color = "red";
+        p.country = "China";
+        p.cost = 1500;
+        System.out.println("Company : "+p.name);
+        System.out.println("Model : "+p.model);
+        System.out.println("Color : "+p.color);
+        System.out.println("Country : "+p.country);
+        System.out.println("Cost : " +p.cost+"$");
 
 
 
